@@ -1,0 +1,16 @@
+name: sbi_generic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - black
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - dill
+  - tqdm
+  - pip:
+    - sbi
+    # - npeet: need separate installation atm.
